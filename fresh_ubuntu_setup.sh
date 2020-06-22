@@ -1,11 +1,7 @@
 # General for new install
 sudo apt-get install -y \
-	git \
-	texlive-full \
 	tree \
 	htop \
-	chrome-gnome-shell \
-	gnome-tweaks \
 	okular
 
 # Sublime Text
@@ -33,8 +29,4 @@ sudo apt-get install -y libgit2-dev
 
 wget -P ~/Downloads https://julialang-s3.julialang.org/bin/linux/x64/1.4/julia-1.4.1-linux-x86_64.tar.gz
 tar -xzvf ~/Downloads/julia-1.4.1-linux-x86_64.tar.gz
-echo "# >>> JULIA RELATED STUFF
-export PATH=\"\$PATH:\$HOME/julia-1.4.1/bin\"
-export JULIA_NUM_THREADS=\`nproc\`
-# <<<" >> .bashrc
-source .bashrc
+mv julia-1.4.1/ ~/julia-1.4.1
