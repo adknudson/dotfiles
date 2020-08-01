@@ -1,4 +1,0 @@
-{
-    "cmd": ["/home/alex/miniconda3/bin/Rscript", "--vanilla", "$file"],
-    "selector": "source.r"
-}
